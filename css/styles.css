@@ -1,6 +1,6 @@
 body {
     font-family: "Gabriela";
-    background-color: rgb(165, 163, 161);
+    background-color: rgba(85, 82, 82, 0.171)
 }
 
 h1, h2, h3 {
@@ -16,14 +16,14 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient( rgb(17, 188, 240), Tan, Black);
+    background-image: linear-gradient( rgb(14, 188, 241), rgb(236, 202, 157), Black);
     padding: 20px 0;
     color: black;
 }
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, Tan, rgb(17, 188, 240), Black);
+    background-image: linear-gradient(to right, rgb(236, 202, 157), rgb(14, 188, 241), Black);
     color: black;
 }
 
@@ -38,18 +38,17 @@ header h2 {
     background-color:rgb(12, 187, 240);
 
 }
- 
-.fa {
-    padding: 20px;
-    font-size: 12px;
-    width: 12px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
+
+img {
+  border-radius: 50px;
+  padding: 50px;
+  width: 490px;
+  height: 590px;
+}
+
+
   .fa:hover {
-      opacity: 0.7;
+      opacity: 12;
   }
   
   .fa-facebook {
@@ -63,8 +62,8 @@ header h2 {
 
   }
   
-  .fa-linkedin {
-    background: #007bb5;
+  .fa-instagram {
+    background: #125688;
     color: white;
   }
   
@@ -72,13 +71,22 @@ header h2 {
     background: #bb0000;
     color: white;
   }
+
+  .carousel {
+    border: solid #25e40c; 
   
-  .fa-instagram {
-    background: #125688;
-    color: white;
   }
   
-  .fa-pinterest {
-    background: #cb2027;
-    color: white;
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+  
+  }  
+
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; 
+  
   }
+  
