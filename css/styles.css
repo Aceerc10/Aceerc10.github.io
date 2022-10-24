@@ -1,29 +1,34 @@
 body {
     font-family: "Gabriela";
-    background-color: rgba(85, 82, 82, 0.171)
+    background-color: rgba(56, 137, 243, 0.678)
 }
 
 h1, h2, h3 {
     font-family: "Gabriela", cursive;
 }
 
+h1 {
+    color: white;
+
+}
+
 h2 {
-    color: black;
+    color: white;
 }
 
 header h2 {
-    color: black;
+    color: white;
 }
 
 .site-footer {
-    background-image: linear-gradient( rgb(14, 188, 241), rgb(236, 202, 157), Black);
+    background-image: linear-gradient( rgb(243, 221, 21), black);
     padding: 20px 0;
     color: black;
 }
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, rgb(236, 202, 157), rgb(14, 188, 241), Black);
+    background-image: linear-gradient(to right, rgb(243, 221, 21), Black);
     color: black;
 }
 
@@ -35,7 +40,8 @@ header h2 {
 }
 
 .navbar {
-    background-color:rgb(12, 187, 240);
+    background-color: black;
+    color: white;
 
 }
 
@@ -73,12 +79,12 @@ img {
   }
 
   .carousel {
-    border: solid #25e40c; 
+    border: solid #0c7c067b 
   
   }
   
   .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(14, 2, 2, 0.815); 
   
   }  
 
